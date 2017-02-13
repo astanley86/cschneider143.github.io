@@ -1,0 +1,5 @@
+body {background-color: lightgray}
+h1 {color: black}
+table, td, th {border: solid 1px; border-collapse: collapse}
+tfoot {text-align: center}
+caption {text-align: left}
