@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sprite</title>
+<meta charset="utf-8">
+</head>
+<style>
+#navlist {
+    position: relative;
+}
+
+#navlist li {
+    list-style-type: none;
+    position: absolute;
+    
+}
+
+#navlist li, #navlist a {
+    height: 150px;
+    display: block;
+
+}
+#upstate {
+    width: 180px;
+    height: 50px;
+    background: url('css-sprites.jpg') 0 0px;
+}
+
+#hoverstate {
+    width: 180px;
+    height: 100px;
+    background: url('css-sprites.jpg') 0 -55px;
+}
+
+#downstate {
+    width: 180px;
+    height: 150px;
+    background: url('css-sprites.jpg') 0 -105px;
+}
+
+#upstate a:hover {
+    background-image: url('css-sprites.jpg') 0 0 ;
+}
+
+#hoverstate a:hover {
+    background-image: url('css-sprites.jpg') 0 -50px;
+}
+
+#downstate a:hover {
+    background-image: url('css-sprites.jpg') 0 -100px;
+}
+</style>
+<body>
+
+<ul id="navlist">
+  <li id="upstate"><a href="http://mcckc.edu/"></a></li><br>
+  <li id="hoverstate"><a href="css_intro.asp"></a></li><br>
+  <li id="downstate"><a href="css_syntax.asp"></a></li><br>
+</ul>
+
+</body>
+</html>
