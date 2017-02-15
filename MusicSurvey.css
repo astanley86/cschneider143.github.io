@@ -1,0 +1,9 @@
+form {
+    background-color: gainsboro;
+    font-family: Arial, sans-serif;
+    padding: 10px;}
+input, textarea {
+    margin-top: 10px;    
+}
+h1 {color: darkred}
+legend {color: brown; font-weight: bold}

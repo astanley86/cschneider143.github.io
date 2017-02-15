@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Form</title>
+<meta charset="utf-8">
+    <link rel="stylesheet" href="MusicSurvey.css">
+</head>
+    <h1>Contact Us</h1>
+    <form method="post" action="http://www.markmurtha.com/csis128/readform.asp">
+        
+    First Name: <input type = "text" name="fname" id="fname"><br>
+    Last Name: <input type="text" name="lname" id="lname"><br>
+    E-mail: <input type="email" name="email" id="email"><br><br>
+    <fieldset>
+        <legend>Select your favorite types of music:</legend>
+        <input type="checkbox" name="rock_music" id="rock_music"> Rock<br>
+        <input type="checkbox" name="classic_music" id="classic_music"> Classical<br>
+        <input type="checkbox" name="folk_music" id="folk_music">Folk<br>
+        <input type="checkbox" name="blues_music" id="blues_music">Blues<br><br>
+        </fieldset><br>
+    <fieldset>
+        <legend>Select how often you purchase music:</legend>
+        <input type="radio" name="purchase_interval" id="weekly_interval">Weekly
+        <input type="radio" name="purchase_interval" id="monthly_interval">Monthly
+        <input type="radio" name="purchase_interval" id="quarterly_interval">Quarterly
+        <input type="radio" name="purchase_interval" id="annually_interval">Annually
+      </fieldset><br>
+    
+        Locations where you listen to music:<br><br>
+        <select size="3" name="where_listen" id="where_listen">
+            <option value="Barnes&Noble">Barnes&amp;Noble</option>
+            <option value="Mardels">Mardels</option>
+            <option value="Home">Home</option>
+            <option value="Work">Work</option>
+            <option value="Outdoor">Outdoors</option>
+            <option value="Gym">Gym</option>
+        </select><br><br>
+            What role does music play in your life?<br>
+    <textarea name="comment" id="comment" rows="3" cols="60">Type your comments here</textarea>
+    <input type="submit"> <input type="reset">
+    
+    </form><br>
+            
+<footer>Copyright &copy; 2017 Cristy Schneider<br>
+  <a href="mailto:s1301715@student.mcckc.edu">s1301715@student.mcckc.edu</a>
+  </footer>
+    
+</html>
