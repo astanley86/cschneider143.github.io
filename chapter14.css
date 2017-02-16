@@ -1,0 +1,21 @@
+form {
+    background-color: gainsboro;
+    font-family: Arial, sans-serif;
+    padding: 10px;}
+input { display: block;
+    margin-bottom: 1em;    
+}
+h1 {color: darkred}
+
+label {
+       float: left;
+       width: 5em;
+       padding-right: 1em;
+       text-align: right;
+       color: maroon; 
+       font-weight: bolder}
+#submit {
+        margin-left: 7em;
+        width: 10em;
+        text-align: center
+        }
